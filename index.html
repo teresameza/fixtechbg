@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FixTech BQ — Soporte Técnico en Barranquilla</title>
+<link rel="stylesheet" href="fixtech-bq.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#inicio" class="nav-logo">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+    </div>
+    FixTech <span>BQ</span>
+  </a>
+  <div class="nav-links">
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+  <a href="#contacto" class="btn-nav">Solicitar servicio</a>
+</nav>
+
+<!-- WHATSAPP FLOTANTE -->
+<a href="https://wa.me/573239632169" target="_blank" class="whatsapp-btn">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+
+<!-- HERO -->
+<section id="inicio" style="position: relative; overflow: hidden;">
+  <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;opacity:0.18;">
+    <source src="img/videoprincipal.mp4" type="video/mp4">
+  </video>
+  <div style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(5,15,35,0.55),rgba(5,15,35,0.82));z-index:1;"></div>
+  <div style="position:relative;z-index:2;">
+    <div class="hero-badge">Barranquilla, Colombia</div>
+    <h1 class="hero-title">
+      Tu equipo falla. <span class="accent">Nosotros lo resolvemos</span> en menos de 24 horas.
+    </h1>
+    <p class="hero-sub">
+      Soporte técnico profesional a domicilio para hogares y empresas en Barranquilla. Mantenimiento, formateos, redes y más — con garantía sobre cada trabajo.
+    </p>
+    <div class="hero-ctas">
+      <a href="#contacto" class="btn-primary">Solicitar servicio <span class="arrow">→</span></a>
+      <a href="#servicios" class="btn-secondary">Ver servicios</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-strip">
+  <div class="stat">
+    <div class="stat-value">&lt; 24 horas</div>
+    <div class="stat-label">Tiempo de respuesta garantizado</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">100%</div>
+    <div class="stat-label">Garantía sobre el trabajo realizado</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">A domicilio</div>
+    <div class="stat-label">Atención en Barranquilla y área metropolitana</div>
+  </div>
+</div>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="services-header">
+    <div>
+      <p class="section-tag">Lo que hacemos</p>
+      <h2 class="section-title">Nuestros <span class="accent">servicios</span></h2>
+    </div>
+    <p class="services-desc">Soluciones técnicas para hogares y PYMES en Barranquilla, con atención rápida y personalizada.</p>
+  </div>
+
+  <div class="cr-section">
+    <div class="cr-stage" id="cr-stage">
+      <button class="cr-btn cr-btn-prev" id="cr-prev" aria-label="Anterior">&#8249;</button>
+
+      <div class="cr-card" data-index="0">
+        <img src="img/mantenimiento.png" alt="Mantenimiento">
+        <div class="cr-shade"></div>
+        <div class="cr-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+          <span class="cr-badge-label">Hardware</span>
+        </div>
+        <span class="cr-num">01</span>
+        <div class="cr-content">
+          <h3 class="cr-name">Mantenimiento</h3>
+          <p class="cr-desc">Preventivo y correctivo de equipos de cómputo, portátiles y servidores: limpieza física, diagnóstico y reemplazo de componentes con garantía.</p>
+          <a href="#contacto" class="cr-cta">Solicitar <span class="arrow">→</span></a>
+        </div>
+        <div class="cr-bar"></div>
+      </div>
+
+      <div class="cr-card" data-index="1">
+        <img src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&q=80" alt="Formateo">
+        <div class="cr-shade"></div>
+        <div class="cr-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg>
+          <span class="cr-badge-label">Software</span>
+        </div>
+        <span class="cr-num">02</span>
+        <div class="cr-content">
+          <h3 class="cr-name">Formateo</h3>
+          <p class="cr-desc">Instalación de Windows, drivers, ofimática y antivirus. Eliminación de virus y optimización de rendimiento. Tu equipo como nuevo.</p>
+          <a href="#contacto" class="cr-cta">Solicitar <span class="arrow">→</span></a>
+        </div>
+        <div class="cr-bar"></div>
+      </div>
+
+      <div class="cr-card" data-index="2">
+        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80" alt="Redes Wi-Fi y cableado">
+        <div class="cr-shade"></div>
+        <div class="cr-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M5 12.55a11 11 0 0114.08 0"/><path d="M1.42 9a16 16 0 0121.16 0"/><path d="M8.53 16.11a6 6 0 016.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+          <span class="cr-badge-label">Conectividad</span>
+        </div>
+        <span class="cr-num">03</span>
+        <div class="cr-content">
+          <h3 class="cr-name">Redes Wi-Fi</h3>
+          <p class="cr-desc">Instalación y configuración de redes inalámbricas y cableado estructurado para hogares y empresas con señal óptima en todos los rincones.</p>
+          <a href="#contacto" class="cr-cta">Solicitar <span class="arrow">→</span></a>
+        </div>
+        <div class="cr-bar"></div>
+      </div>
+
+      <div class="cr-card" data-index="3">
+        <img src="img/soporte remoto.jpg" alt="Soporte Remoto">
+        <div class="cr-shade"></div>
+        <div class="cr-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <span class="cr-badge-label">Soporte</span>
+        </div>
+        <span class="cr-num">04</span>
+        <div class="cr-content">
+          <h3 class="cr-name">Soporte remoto</h3>
+          <p class="cr-desc">Asistencia técnica en línea en tiempo real. Resolvemos problemas de software, virus y configuración sin salir de tu hogar u oficina.</p>
+          <a href="#contacto" class="cr-cta">Solicitar <span class="arrow">→</span></a>
+        </div>
+        <div class="cr-bar"></div>
+      </div>
+
+      <div class="cr-card" data-index="4">
+        <img src="img/asesoriapc.webp" alt="Asesoría equipos">
+        <div class="cr-shade"></div>
+        <div class="cr-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <span class="cr-badge-label">Consultoría</span>
+        </div>
+        <span class="cr-num">05</span>
+        <div class="cr-content">
+          <h3 class="cr-name">Asesoría equipos</h3>
+          <p class="cr-desc">Te orientamos para elegir el equipo ideal según tu presupuesto y necesidades. Evita malas inversiones con asesoría profesional antes de comprar.</p>
+          <a href="#contacto" class="cr-cta">Solicitar <span class="arrow">→</span></a>
+        </div>
+        <div class="cr-bar"></div>
+      </div>
+
+      <button class="cr-btn cr-btn-next" id="cr-next" aria-label="Siguiente">&#8250;</button>
+    </div>
+    <div class="cr-dots" id="cr-dots"></div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="nosotros-grid">
+    <div class="nosotros-img-wrap" style="position:relative; overflow:hidden; height:360px;">
+      <video autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+        <source src="img/videoprincipal.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="nosotros-content">
+      <p class="section-tag">Quiénes somos</p>
+      <h2 class="section-title">Técnicos <span class="accent">confiables</span> en Barranquilla</h2>
+      <p class="nosotros-desc">En FixTech BQ somos especialistas en soporte técnico con presencia real en Barranquilla. Llegamos a tu hogar o empresa con el técnico identificado, herramientas profesionales y garantía sobre cada servicio.</p>
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <p class="feature-title">Rapidez</p>
+            <p class="feature-text">Diagnósticos inician en menos de 24 horas tras tu solicitud.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <p class="feature-title">Confianza</p>
+            <p class="feature-text">Técnico identificado, historial de servicio y garantía escrita.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <p class="feature-title">Cercanía</p>
+            <p class="feature-text">Atención a domicilio en Barranquilla y área metropolitana.</p>
+          </div>
+        </div>
+      </div>
+      <div class="counters-grid">
+        <div class="counter-item">
+          <span class="counter-value" data-target="150">0</span>
+          <span class="counter-label">Clientes atendidos</span>
+        </div>
+        <div class="counter-item">
+          <span class="counter-value" data-target="24">0</span>
+          <span class="counter-label">Horas de respuesta</span>
+        </div>
+        <div class="counter-item">
+          <span class="counter-value" data-target="100">0</span>
+          <span class="counter-label">% Garantía</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios">
+  <div class="testimonios-header">
+    <div style="display:flex; align-items:center; justify-content:center; gap:10px; margin-bottom:20px;">
+      <div style="display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12); border-radius:100px; padding:8px 18px;">
+        <svg width="18" height="18" viewBox="0 0 24 24">
+          <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+          <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+          <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z"/>
+          <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+        </svg>
+        <span style="color:#fff; font-weight:700; font-size:14px;">4.9 ★</span>
+        <span style="color:#94a3b8; font-size:13px;">en Google Reviews</span>
+      </div>
+    </div>
+    <p class="section-tag">Lo que dicen</p>
+    <h2 class="section-title">Clientes <span class="accent">satisfechos</span></h2>
+  </div>
+
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p class="review-title">Rápidos y profesionales</p>
+      <p class="review-text">Mi computador dejó de funcionar un lunes y el martes ya estaba listo. El técnico fue muy serio y explicó todo el proceso.</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar" style="background:#f97316;">CR</div>
+        <div>
+          <p class="reviewer-name">Carlos Rodríguez</p>
+          <p class="reviewer-role">Usuario hogar, Norte de Barranquilla</p>
+        </div>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p class="review-title">El proveedor que necesitaba</p>
+      <p class="review-text">Tengo 10 equipos en la oficina y FixTech BQ se convirtió en nuestro soporte fijo. Responden rápido y tienen historial documentado.</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar" style="background:#22c55e;">LM</div>
+        <div>
+          <p class="reviewer-name">Laura Martínez</p>
+          <p class="reviewer-role">Administradora, PYME local</p>
+        </div>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p class="review-title">Red Wi-Fi impecable</p>
+      <p class="review-text">Instalaron toda la red de mi local en medio día. Señal perfecta en todos los rincones y precio muy justo. 100% recomendado.</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar" style="background:#a855f7;">JP</div>
+        <div>
+          <p class="reviewer-name">Jorge Pertuz</p>
+          <p class="reviewer-role">Dueño de local comercial</p>
+        </div>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <p class="review-title">Confianza total</p>
+      <p class="review-text">Me preocupaba dejar mis datos en manos de un extraño, pero el técnico fue muy transparente. 100% recomendada.</p>
+      <div class="reviewer">
+        <div class="reviewer-avatar" style="background:#ec4899;">AS</div>
+        <div>
+          <p class="reviewer-name">Ana Simancas</p>
+          <p class="reviewer-role">Trabajadora independiente</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════
+     CONTACTO  ← sección limpia y cerrada
+═══════════════════════════════════ -->
+<section id="contacto">
+  <div class="contact-grid">
+
+    <!-- Columna izquierda: datos de contacto -->
+    <div class="contact-info">
+      <h2 class="contact-title">Contácta<span>nos</span></h2>
+      <p class="contact-sub">Estamos aquí para ayudarte. Resolvemos tus dudas y cuidamos el rendimiento de tu equipo.</p>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"/></svg>
+          </div>
+          <div>
+            <p class="contact-item-label">Email</p>
+            <p class="contact-item-value">fixtechbq@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 12 19.79 19.79 0 01.22 3.36 2 2 0 012.2 1h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 8.1A16 16 0 0015.9 17.09l.61-.61a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <div>
+            <p class="contact-item-label">Teléfono</p>
+            <p class="contact-item-value">323 963 2169</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+          </div>
+          <div>
+            <p class="contact-item-label">WhatsApp</p>
+            <p class="contact-item-value">323 963 2169</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <p class="contact-item-label">Ubicación</p>
+            <p class="contact-item-value">Barranquilla, Colombia</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- /contact-info -->
+
+    <!-- Columna derecha: formulario -->
+    <form action="https://formspree.io/f/xovdjbzy" method="POST" class="contact-form">
+
+  <div class="form-header">
+    <p class="section-tag">Contáctanos</p>
+    <h3>Solicita tu <span>servicio</span></h3>
+    <p class="form-sub">
+      Cuéntanos qué le pasa a tu equipo y te respondemos en menos de 24 horas.
+      Sin costo por diagnóstico inicial.
+    </p>
+  </div>
+
+  <div class="form-group">
+    <label>Nombre completo</label>
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+  </div>
+
+  <div class="form-group">
+    <label>Teléfono / WhatsApp</label>
+    <input type="tel" name="telefono" placeholder="+57 300 000 0000">
+  </div>
+
+  <div class="form-group">
+    <label>Correo electrónico</label>
+    <input type="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+  </div>
+
+  <div class="form-group">
+    <label>Tipo de servicio</label>
+    <select name="servicio" required>
+      <option value="" disabled selected>Selecciona un servicio...</option>
+      <option>Mantenimiento de computador</option>
+      <option>Formateo e instalación</option>
+      <option>Redes Wi-Fi y cableado</option>
+      <option>Soporte remoto</option>
+      <option>Asesoría de equipos</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Describe el problema</label>
+    <textarea name="problema" placeholder="Ej. Mi portátil se apaga solo, hace ruido raro o está muy lento..." required></textarea>
+  </div>
+
+  <!-- Aviso de tratamiento de datos -->
+  <div class="form-group aviso-datos">
+    <p>
+      Al enviar este formulario, autorizo el tratamiento de mis datos personales conforme a la 
+      <strong>Ley 1581 de 2012</strong>. La información será utilizada únicamente para contactarme 
+      y brindar información sobre los servicios ofrecidos.
+    </p>
+  </div>
+
+  <!-- Checkbox obligatorio -->
+  <div class="form-group checkbox-group">
+    <label>
+      <input type="checkbox" name="acepto" required>
+      Acepto el tratamiento de mis datos personales
+    </label>
+  </div>
+
+  <!-- Enlace política -->
+  <div class="form-group politica">
+    <p>
+      Puedes consultar nuestra 
+      <a href="politica.html" target="_blank">política de tratamiento de datos</a>.
+    </p>
+  </div>
+
+  <button type="submit" class="btn-submit">
+    Enviar solicitud <span class="arrow">→</span>
+  </button>
+
+</form>
+
+  </div><!-- /contact-grid -->
+</section><!-- /contacto -->
+
+
+<!-- ═══════════════════════════════════
+     FOOTER  ← fuera de #contacto
+═══════════════════════════════════ -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">
+        <div class="logo-icon" style="width:28px;height:28px;border-radius:6px;background:var(--blue);display:grid;place-items:center;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        FixTech <span>BQ</span>
+      </div>
+      <p class="footer-brand-desc">Soporte técnico profesional a domicilio para hogares y empresas en Barranquilla. Respuesta garantizada en menos de 24 horas.</p>
+      <div class="footer-social">
+        <a href="#" class="social-btn" title="Facebook">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+        </a>
+        <a href="#" class="social-btn" title="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" class="social-btn" title="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://wa.me/573239632169" class="social-btn" title="WhatsApp">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#testimonios">Reseñas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Servicios</h4>
+      <ul>
+        <li><a href="#contacto">Mantenimiento</a></li>
+        <li><a href="#contacto">Formateo</a></li>
+        <li><a href="#contacto">Redes Wi-Fi</a></li>
+        <li><a href="#contacto">Soporte remoto</a></li>
+        <li><a href="#contacto">Asesoría equipos</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="#">Barranquilla, Colombia</a></li>
+        <li><a href="mailto:fixtechbq@gmail.com">fixtechbq@gmail.com</a></li>
+        <li><a href="tel:3239632169">WhatsApp: 3239632169</a></li>
+        <li><a href="#">Lun – Sáb, 8am – 6pm</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 FixTech BQ. Todos los derechos reservados.</span>
+    <span>Hecho con ♥ en <a href="#">Barranquilla</a></span>
+  </div>
+</footer><!-- /footer -->
+
+
+<!-- SCRIPTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script>
+  /* ── CARRUSEL 3D ── */
+  const crCards = Array.from(document.querySelectorAll('.cr-card'));
+  const crDotsContainer = document.getElementById('cr-dots');
+  let crIndex = 0;
+  const crTotal = crCards.length;
+
+  function buildDots() {
+    crDotsContainer.innerHTML = '';
+    for (let i = 0; i < crTotal; i++) {
+      const btn = document.createElement('button');
+      btn.className = 'cr-dot' + (i === crIndex ? ' active' : '');
+      btn.setAttribute('aria-label', 'Slide ' + (i + 1));
+      btn.addEventListener('click', () => { crIndex = i; crLayout(); });
+      crDotsContainer.appendChild(btn);
+    }
+  }
+
+  function crGetPos(i) {
+    let diff = i - crIndex;
+    if (diff >  Math.floor(crTotal / 2)) diff -= crTotal;
+    if (diff < -Math.floor(crTotal / 2)) diff += crTotal;
+    return diff;
+  }
+
+  function crLayout() {
+    crCards.forEach((card, i) => {
+      const pos    = crGetPos(i);
+      const absPos = Math.abs(pos);
+      const tx     = pos * 290;
+      const tz     = -absPos * 180;
+      const scale  = absPos === 0 ? 1 : absPos === 1 ? 0.70 : 0.50;
+      const opacity= absPos === 0 ? 1 : absPos === 1 ? 0.40 : 0.15;
+      const zIndex = crTotal - absPos;
+
+      card.style.transform     = `translateX(${tx}px) translateZ(${tz}px) scale(${scale})`;
+      card.style.opacity       = opacity;
+      card.style.zIndex        = zIndex;
+      card.style.pointerEvents = absPos <= 1 ? 'auto' : 'none';
+      card.style.filter        = `brightness(${absPos === 0 ? 1 : absPos === 1 ? 0.55 : 0.35})`;
+
+      if (absPos === 0) card.classList.add('is-active');
+      else              card.classList.remove('is-active');
+    });
+    buildDots();
+  }
+
+  function crGo(dir) {
+    crIndex = (crIndex + dir + crTotal) % crTotal;
+    crLayout();
+  }
+
+  document.getElementById('cr-prev').addEventListener('click', () => crGo(-1));
+  document.getElementById('cr-next').addEventListener('click', () => crGo(1));
+
+  crCards.forEach((card, i) => {
+    card.addEventListener('click', () => {
+      const pos = crGetPos(i);
+      if (pos !== 0) crGo(pos > 0 ? 1 : -1);
+    });
+  });
+
+  crLayout();
+
+  /* ── GSAP ── */
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.from(".hero-title",       { y: -60, opacity: 0, duration: 1 });
+  gsap.from(".hero-sub",         { y:  40, opacity: 0, duration: 1, delay: 0.3 });
+  gsap.from(".hero-ctas a",      { scale: 0, opacity: 0, duration: 0.5, stagger: 0.2, delay: 0.6 });
+
+  gsap.from(".stat",             { scrollTrigger: ".stats-strip", y: 80, opacity: 0, duration: 1, stagger: 0.2 });
+  gsap.from(".cr-card",          { scrollTrigger: "#servicios",   y: 80, opacity: 0, duration: 1, stagger: 0.1 });
+  gsap.from(".nosotros-img-wrap",{ scrollTrigger: "#nosotros",    x: -100, opacity: 0, duration: 1 });
+  gsap.from(".nosotros-content", { scrollTrigger: "#nosotros",    y: 40, opacity: 0, duration: 1 });
+  gsap.from(".feature",          { scrollTrigger: "#nosotros",    y: 50, opacity: 0, duration: 0.8, stagger: 0.2 });
+  gsap.from(".counter-item",     { scrollTrigger: "#nosotros",    y: 40, opacity: 0, duration: 0.6, stagger: 0.15, delay: 0.3 });
+  gsap.from(".review-card",      { scrollTrigger: "#testimonios", y: 100, opacity: 0, duration: 1, stagger: 0.3 });
+  gsap.from(".contact-info",     { scrollTrigger: "#contacto",    x: -100, opacity: 0, duration: 1 });
+  gsap.from(".contact-form",     { scrollTrigger: "#contacto",    x:  100, opacity: 0, duration: 1 });
+
+  /* ── NAV SCROLL ── */
+  window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  /* ── CONTADORES ANIMADOS ── */
+  function animateCounter(el) {
+    const target = +el.dataset.target;
+    const duration = 1800;
+    const step = target / (duration / 16);
+    let current = 0;
+    const timer = setInterval(() => {
+      current += step;
+      if (current >= target) {
+        el.textContent = target + (target === 100 ? '%' : '+');
+        clearInterval(timer);
+      } else {
+        el.textContent = Math.floor(current);
+      }
+    }, 16);
+  }
+
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        counterObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('.counter-value').forEach(el => {
+    counterObserver.observe(el);
+  });
+</script>
+
+</body>
+</html>
